@@ -1,0 +1,9 @@
+docker-compose.yml
+/server/node_modules
+/server/package-lock.json
+/server/dist
+/server/Dockerfile
+
+/client/Dockerfile
+/client/package-locak.json
+/client/node_modules
