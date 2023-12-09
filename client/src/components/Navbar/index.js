@@ -48,7 +48,7 @@ function NavbarLg() {
       <SignUp open={openSignUpModal} setOpen={setSignUpModalOpen} />
       <div className='flex items-center gap-6 w-4/5'>
         <div className='w-1/5'>
-          <Link to={`/delivery`}>
+          <Link to={`/dining`}>
             <div
               className='w-full h-full rounded-full text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-700 to-red-900'
               alt='logo'
@@ -175,13 +175,20 @@ function NavabarMobile() {
       <SignIn open={openSignInModal} setOpen={setSignInModalOpen} />
       <SignUp open={openSignUpModal} setOpen={setSignUpModalOpen} />
       <div className='flex items-center justify-between shadow lg:hidden md:px-10 px-4 py-4'>
-        <div className='w-1/4'>
-          <Link to='/delivery'>
+        <div className='w-3/5'>
+          <Link to='/dining'>
             <div
               className='w-full h-full rounded-full text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-red-700 to-red-900'
               alt='logo'
             >
-              CRAVE
+              <Typewriter
+                words={['CRAVE']}
+                loop={0}
+                typeSpeed={350}
+                deleteSpeed={150}
+                delaySpeed={2000}
+                cursorStyle='|'
+              ></Typewriter>
             </div>
           </Link>
         </div>
