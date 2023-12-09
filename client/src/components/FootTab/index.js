@@ -70,19 +70,14 @@ function FoodTabLg() {
 function FoodTabMobile() {
   const [allTypes] = useState([
     {
-      id: 'delivery',
-      icon: <DeliveryDiningIcon fontSize='large' />,
-      name: 'Delivery',
-    },
-    {
       id: 'dining',
       icon: <DiningIcon fontSize='large' />,
       name: 'Dining',
     },
     {
-      id: 'night',
-      icon: <NightlifeIcon fontSize='large' />,
-      name: 'Night Life',
+      id: 'delivery',
+      icon: <DeliveryDiningIcon fontSize='large' />,
+      name: 'Delivery',
     },
   ]);
   const { type } = useParams();

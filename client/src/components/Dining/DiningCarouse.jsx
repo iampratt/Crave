@@ -10,16 +10,17 @@ function DiningCarouse() {
   const [items, setItem] = useState([
     {
       image:
-        'https://b.zmtcdn.com/data/collections/031c2dd47d839ff2bf98dbb66147ab4f_1648708807.jpg',
-      title: 'Newly Opened',
-      places: '4 Places',
-    },
-    {
-      image:
         'https://content3.jdmagicbox.com/comp/jaipur/a7/0141px141.x141.130626145026.s2a7/catalogue/manipal-university-jaipur-gpo-jaipur-mba-institutes-jeigp729w8.jpg',
       title: 'Best of MUJ',
       places: '36 Places',
     },
+    {
+      image:
+        'https://b.zmtcdn.com/data/collections/031c2dd47d839ff2bf98dbb66147ab4f_1648708807.jpg',
+      title: 'Newly Opened',
+      places: '4 Places',
+    },
+
     {
       image:
         'https://b.zmtcdn.com/data/collections/174480faee1a4a2c0f0fdd82cac5d8a5_1647240902.jpg',
