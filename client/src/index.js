@@ -13,10 +13,12 @@ if (localStorage.LoggedInUser) {
   axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
 }
 root.render(
-  <Provider store={store}>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+  <>
+    <Provider store={store}>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
+    </Provider>
     <SpeedInsights />
-  </Provider>
+  </>
 );
