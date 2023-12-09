@@ -11,7 +11,6 @@ if (localStorage.LoggedInUser) {
   const { token } = JSON.parse(localStorage.LoggedInUser);
   axios.defaults.headers.common['Authorization'] = `Bearer ${token}`;
 }
-document.title = 'CRAVE';
 root.render(
   <Provider store={store}>
     <BrowserRouter>
