@@ -15,8 +15,8 @@ if (localStorage.LoggedInUser) {
 root.render(
   <Provider store={store}>
     <BrowserRouter>
-      <SpeedInsights />
       <App />
+      <SpeedInsights />
     </BrowserRouter>
   </Provider>
 );
