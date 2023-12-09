@@ -14,7 +14,7 @@ import passport from 'passport';
 import passwordconfig from './config';
 import cors from 'cors';
 const zomato = express();
-const port = 5000;
+const port = 8081;
 dotenv.config({ path: '../src' });
 
 passwordconfig(passport);
