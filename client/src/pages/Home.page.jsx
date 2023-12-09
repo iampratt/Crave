@@ -9,8 +9,8 @@ function Home() {
 
   return (
     <div>
-      {type === 'delivery' && <Delivery />}
       {type === 'dining' && <Dining />}
+      {type === 'delivery' && <Delivery />}
     </div>
   );
 }
